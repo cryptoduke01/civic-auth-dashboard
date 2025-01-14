@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   resolve: {
     alias: {
+      
       // Add this alias to polyfill process in the browser
       process: 'process/browser',
     },
